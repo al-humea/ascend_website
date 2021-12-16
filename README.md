@@ -5,7 +5,7 @@ Learning web development through making my own website
 ---
 >## **GOALS** :
 >- [x] Making the logo of Ascend using Illustrator.  
-	<img src="./Ascend/logo/Ascend.png" alt="Ascend Logo" width="256"/>
+	<img src="./Ascend/logo/Ascend_Night.png" alt="Ascend Logo" width="256"/>
 >- [ ] Making a template of the website using photoshop.  
 	<img src="./Placeholder.png" alt="Webdesign Template Placeholder" width="512"/>
 >- [ ] Managing to make the created look using HTML and CSS.
