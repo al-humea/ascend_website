@@ -1,6 +1,7 @@
 Ascend_Website
 ===
-Learning web development through making a group's visual identity and a webpage.
+Learning web development through making a webpage.
+This ended up being a satirical website about different self development rules made by a fictive company.
 ---
 ---
 >## **GOALS** :
