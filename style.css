@@ -1,49 +1,89 @@
-header
-{
+header {
     display: flex;
-    background-color: red;
+	background-color: #272635;
     align-items: center;
 }
 
-header img
-{
+header img {
     height : 16vh;
     width : 16vh;
     padding : 2vh 0vw 2vh 1vw;
 }
 
-header h1
-{
+header h1 {
     flex-grow: 1;
     text-align: center;
+	font-size: 5vmin;
 }
 
-.rules
-{
+body {
+	background-color: #252627;
+	color: #FFFAFF;
+}
+
+.rules {
 	height: 74vh;
 	display:flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
-.rules div
-{
+.rules div {
+	max-width: 60%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	flex-grow: 1;
 }
 
-.rules h1
+.ruletext
 {
-	font-size: 5vh;
+	padding: auto;
 }
 
-p
-{
+.ruleimg img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*Text*/
+.rules h1 {
+	font-size: 5vmin;
 	text-align: center;
-	font-size: 3vh;
 }
-b
-{
-	font-size: 4vh;
+p {
+	text-justify: justify;
+	text-align: center;
+	font-size: 3vmin;
+}
+b {
+	font-size: 4vmin;
+}
+/*Nav links*/
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFFAFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #bab3ba;
+}
+a:active {
+	text-decoration: none;
+}
+
+/*Selection dots*/
+.circle {
+	height: 6vh;
+	width: 6vh;
+	background-color: white;
+	border-radius: 50%;
+}
+
+#slide-buttons {
+	display:flex;
+	height: 10vh;
 }
