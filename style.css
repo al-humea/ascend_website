@@ -1,7 +1,23 @@
+/* Global */
+html {
+	overflow: scroll;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+	background: transparent;
+}
+
 header {
+	color: #FFFAFF;
     display: flex;
 	background-color: #272635;
     align-items: center;
+}
+
+body {
+	background-color: #252627;
+	color: #FFFAFF;
 }
 
 header img {
@@ -16,11 +32,22 @@ header h1 {
 	font-size: 5vmin;
 }
 
-body {
-	background-color: #252627;
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
 	color: #FFFAFF;
 }
+a:hover {
+	text-decoration: none;
+	color: #bab3ba;
+}
+a:active {
+	text-decoration: none;
+}
 
+/*Rules - Page*/
 .rules {
 	height: 74vh;
 	display:flex;
@@ -28,7 +55,7 @@ body {
 	justify-content: space-between;
 }
 
-.rules div {
+.rules section {
 	max-width: 60%;
 	display: flex;
 	flex-direction: column;
@@ -46,44 +73,84 @@ body {
 	max-height: 100%;
 }
 
-/*Text*/
 .rules h1 {
 	font-size: 5vmin;
 	text-align: center;
 }
-p {
+.rules p {
 	text-justify: justify;
 	text-align: center;
 	font-size: 3vmin;
 }
-b {
+.rules b {
 	font-size: 4vmin;
 }
-/*Nav links*/
-a:link {
-	text-decoration: none;
-}
-a:visited {
-	text-decoration: none;
-	color: #FFFAFF;
-}
-a:hover {
-	text-decoration: none;
-	color: #bab3ba;
-}
-a:active {
-	text-decoration: none;
-}
-
-/*Selection dots*/
+/*footer*/
 .circle {
 	height: 6vh;
 	width: 6vh;
 	background-color: white;
 	border-radius: 50%;
+	margin: 0vw 1vw;
 }
 
 #slide-buttons {
+	justify-content: center;
 	display:flex;
 	height: 10vh;
+}
+
+/*Project Page*/
+#project {
+	height: 78vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-size: 3vmin;
+}
+
+#project .qa {
+	padding: 0% 10%;
+}
+
+#project h2 {
+	font-size: 4vmin;
+}
+
+/*Github Page*/
+#git-integration {
+	height: 70vh;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 10vmin;
+}
+
+/*About Page*/
+#whoami {
+	height: 78vh;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 5vmin;
+	text-decoration: underline;
+}
+
+#biography {
+	flex-grow: 1;
+	text-align: center;
+}
+
+#phototext {
+	height: 100%;
+	flex-grow: 1;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#phototext figure {
 }
