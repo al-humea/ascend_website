@@ -1,4 +1,13 @@
 /* Global */
+@font-face {
+	font-family: "Gowun_Batang";
+	src: url(./assets/fonts/Gowun_Batang/GowunBatang-Regular.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Gowun_Dodum";
+	src: url(./assets/fonts/Gowun_Dodum/GowunDodum-Regular.ttf);
+}
+
 html {
 	overflow: scroll;
 }
@@ -9,6 +18,7 @@ html {
 }
 
 header {
+	font-family: "Gowun Batang";
 	color: #FFFAFF;
     display: flex;
 	background-color: #272635;
@@ -16,8 +26,10 @@ header {
 }
 
 body {
+	font-family: "Gowun Dodum";
 	background-color: #252627;
 	color: #FFFAFF;
+	margin: 0;
 }
 
 header img {
@@ -128,29 +140,10 @@ a:active {
 }
 
 /*About Page*/
-#whoami {
+#cv {
 	height: 78vh;
 	display:flex;
 	align-items: center;
 	justify-content: space-around;
 	font-size: 5vmin;
-	text-decoration: underline;
-}
-
-#biography {
-	flex-grow: 1;
-	text-align: center;
-}
-
-#phototext {
-	height: 100%;
-	flex-grow: 1;
-
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	justify-content: space-around;
-}
-
-#phototext figure {
 }
