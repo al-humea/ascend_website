@@ -30,12 +30,16 @@ body {
 	background-color: #252627;
 	color: #FFFAFF;
 	margin: 0;
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-rows: 20% 70% 10%;
+	grid-gap: 3%;
 }
 
 header img {
-    height : 16vh;
-    width : 16vh;
-    padding : 2vh 0vw 2vh 1vw;
+	height : 80%;
+    padding : 3vh 0vw 3vh 1vw;
 }
 
 header h1 {
@@ -45,6 +49,7 @@ header h1 {
 }
 
 a:link {
+	color: #FFFAFF;
 	text-decoration: none;
 }
 a:visited {
@@ -60,11 +65,19 @@ a:active {
 }
 
 /*Rules - Page*/
+main {
+	display : grid;
+	grid-template-columns: 1;
+	grid-template-rows: 1;
+}
+
 .rules {
-	height: 74vh;
 	display:flex;
 	align-items: center;
 	justify-content: space-around;
+	visibility:visible;
+	grid-row: 1;
+	grid-column: 1;
 }
 
 .rules section {
@@ -75,8 +88,7 @@ a:active {
 	flex-grow: 1;
 }
 
-.ruletext
-{
+.ruletext {
 	padding: auto;
 }
 
@@ -108,17 +120,15 @@ a:active {
 }
 
 #slide-buttons {
-	justify-content: center;
 	display:flex;
-	height: 10vh;
+	justify-content: center;
+	align-items: center;
 }
 
 /*Project Page*/
 #project {
-	height: 78vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
 	font-size: 3vmin;
 }
 
@@ -180,7 +190,6 @@ a:active {
 
 	background : #FFFAFF;
 	color: #252627;
-	height: 40vh;
 	width: 80%;
 	border-radius: 5vw;
 	border-style: solid;
