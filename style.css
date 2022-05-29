@@ -1,31 +1,27 @@
 /* Global */
-@font-face {
+@font-face{
 	font-family: "Gowun_Batang";
 	src: url(./assets/fonts/Gowun_Batang/GowunBatang-Regular.ttf) format("truetype");
 }
-@font-face {
+@font-face{
 	font-family: "Gowun_Dodum";
 	src: url(./assets/fonts/Gowun_Dodum/GowunDodum-Regular.ttf);
 }
-
-html {
+html{
 	overflow: scroll;
 }
-
-::-webkit-scrollbar {
+::-webkit-scrollbar{
 	width: 0px;
 	background: transparent;
 }
-
-header {
+header{
 	font-family: "Gowun Batang";
 	color: #FFFAFF;
-    display: flex;
+	display: flex;
 	background-color: #272635;
-    align-items: center;
+	align-items: center;
 }
-
-body {
+body{
 	font-family: "Gowun Dodum";
 	background-color: #252627;
 	color: #FFFAFF;
@@ -33,45 +29,41 @@ body {
 	height: 100%;
 	width: 100%;
 	display: grid;
-	grid-template-rows: 20% 70% 10%;
+	grid-template-rows: 20vh 60vh 10vh;
 	grid-gap: 3%;
 }
-
-header img {
-	height : 80%;
-    padding : 3vh 0vw 3vh 1vw;
+header img{
+	height: 80%;
+	padding : 3vh 0vw 3vh 1vw;
 }
-
-header h1 {
-    flex-grow: 1;
-    text-align: center;
+header h1{
+	flex-grow: 1;
+	text-align: center;
 	font-size: 5.5vmin;
 }
-
-a:link {
+a:link{
 	color: #FFFAFF;
 	text-decoration: none;
 }
-a:visited {
+a:visited{
 	text-decoration: none;
 	color: #FFFAFF;
 }
-a:hover {
+a:hover{
 	text-decoration: none;
 	color: #bab3ba;
 }
-a:active {
+a:active{
 	text-decoration: none;
 }
 
 /*Rules - Page*/
-main {
+main{
 	display : grid;
 	grid-template-columns: 1;
 	grid-template-rows: 1;
 }
-
-.rules {
+.rules{
 	display:flex;
 	align-items: center;
 	justify-content: space-around;
@@ -79,69 +71,58 @@ main {
 	grid-row: 1;
 	grid-column: 1;
 }
-
-.rules section {
+.rules section{
 	max-width: 60%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	flex-grow: 1;
 }
-
-.ruletext {
+.ruletext{
 	padding: auto;
 }
-
 .ruleimg img{
 	max-width: 100%;
 	max-height: 100%;
 	box-shadow: 0px 10px 2vh black; 
 }
-
-.rules h1 {
+.rules h1{
 	font-size: 5vmin;
 	text-align: center;
 }
-.rules p {
+.rules p{
 	text-justify: justify;
 	text-align: center;
 	font-size: 4vmin;
 }
-.rules b {
+.rules b{
 	font-size: 4.5vmin;
 }
+
 /*footer*/
-.circle {
+.circle{
 	height: 6vh;
 	width: 6vh;
 	background-color: white;
 	border-radius: 50%;
 	margin: 0vw 1vw;
 }
-
-#slide-buttons {
+#slide-buttons{
 	display:flex;
 	justify-content: center;
 	align-items: center;
 }
 
 /*Project Page*/
-#project {
-	display: flex;
-	flex-direction: column;
-	font-size: 3vmin;
-}
-
-#project .qa {
+#project .qa{
 	padding: 0% 10%;
 }
-
-#project h2 {
+#project h2{
 	font-size: 4vmin;
 }
 
 /*Github Page*/
-#git-integration {
+#git-integration{
 	height: 70vh;
 	display:flex;
 	flex-direction: column;
@@ -151,10 +132,12 @@ main {
 }
 
 /*About Page*/
-#bojji {
+#bojji{
+	padding : 3vh 0vw 3vh 1vw;
+}
+#bojji img{
 	border-radius: 50%;
 }
-
 #randombs a:visited{
 	color: #252627;
 	text-decoration: underline;
@@ -171,8 +154,7 @@ main {
 	color: grey;
 	text-decoration: underline;
 }
-
-#randombs {
+#randombs{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -181,13 +163,11 @@ main {
 	justify-content: space-between;
 	margin-top: 5vh;
 }
-
-#quote {
+#quote{
 	display: flex;
 	align-items: center;
 	text-align: center;
 	justify-content: space-around;
-
 	background : #FFFAFF;
 	color: #252627;
 	width: 80%;
@@ -196,7 +176,6 @@ main {
 	border-width: 1vh;
 	border-color: black;
 }
-
 #quote img{
 	border-radius: 100%;
 	border-style: dotted;
@@ -206,14 +185,12 @@ main {
 	height: 35vh;
 	width: auto;
 }
-
 #rkok a{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-
-#rkokbg {
+#rkokbg{
 	padding: 5vh 0vw 0vh;
 	width: 80%;
 	border-radius: 200px;
